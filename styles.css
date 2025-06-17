@@ -1,5 +1,10 @@
 body{
     background-color: rgb(28, 64, 166);
+    background-image: url(Images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    font-family: monospace;
 }
 header{
     background-color: rgb(17, 40, 101);
@@ -7,6 +12,8 @@ header{
     justify-content: center;
     height: 10vh;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
 }
 
 header button{
