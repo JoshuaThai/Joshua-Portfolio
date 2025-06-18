@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Joshua's Portfolio</title>
+    <title>Joshua's ePortfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-image: url(Images/bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #Welcome{
+            animation-name: moveText;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes moveText {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
     <header>
         <button>Home</button>
-        <button>Projects</button>
-        <button>About Me</button>
-        <button>Awards</button>
+        <button onclick="document.location='projects.html'">Projects</button>
+        <button onclick="document.location='aboutMe.html'">About Me</button>
+        <button onclick="document.location='awards.html'">Awards</button>
     </header>
     <main>
-        <h1>Welcome to Joshua Thaisananikone's portfolio</h1>
+        <h1 id ="Welcome">Welcome to Joshua Thaisananikone's ePortfolio</h1>
         <img id = "Josh" src="Images/JT_Photo.jpg" Width = "510" Height = "450" alt="Picture of Joshua Thaisananikone" onmouseenter="changeImage()">
-    </main>
+        <hr>
+        <p>
+I am a software engineer and game developer based in Milwaukee, Wisconsin. 
+As a kid, I have always been passionate in the inner functioning of software and video games. 
+One of my core beliefs is that technology are part of the infrastructure that keep our society 
+running. It is imperative that we have software engineers who are ready to tackle the problems
+that may arise tomorrow and are passionate in their work like me. With experience in Java and 
+Lua, I've utilized these experiences to create class projects and develop games on Roblox. 
+Through these projects, I have gain invaluable skills such as debugging, attention-to-detail, 
+and problem solving that will help me be a successful software engineer. 
+My goal as a software engineer is to grow intellectually and personally. 
+On the intellectual side, I want to be able to master multiple programming languages, be able 
+to create efficient code, and be able to create software that change the lives of other. 
+On the personal side, I want to be able to improve my communication skills, build on my 
+teamworking skills, and build community with my co-workers. A successful 
+software engineer is one that loves learning and that's who I am.</p><hr>
+<p style="font-weight: bolder; font-size: 36px;">"Knowledge is power. The more knowledge, expertise, and 
+    connections you have, the easier it is for you to make a profit at the game of your 
+    choice." - Stuart Wilde</p>
 </body>
 <script>
     function changeImage(){

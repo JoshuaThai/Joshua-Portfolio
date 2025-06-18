@@ -1,8 +1,5 @@
 body{
-    background-color: rgb(28, 64, 166);
-    background-image: url(Images/bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(28, 64, 166, 1);
     height: auto;
     font-family: monospace;
     text-align: center;
@@ -35,7 +32,7 @@ header button:hover{
 }
 
 main{
-    background-color: rgb(17, 40, 101);
+    background-color: rgba(17, 40, 101, 0.75);
     display: inline-block;
     margin: 0 auto;
     margin-top: 1vh;
@@ -45,4 +42,15 @@ main{
 
 h1{
     font-size: 48px;
+    color: white;
+}
+
+img{
+    border: 5px solid rgb(92, 87, 228);
+    border-radius: 10px;
+}
+
+p{
+    font-size: 24px;
+    color:white
 }
