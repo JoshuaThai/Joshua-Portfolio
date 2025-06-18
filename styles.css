@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     height: auto;
     font-family: monospace;
+    text-align: center;
 }
 header{
     background-color: rgb(17, 40, 101);
@@ -31,4 +32,17 @@ header button{
 header button:hover{
     background-color: rgb(107, 140, 231);
     color:black;
+}
+
+main{
+    background-color: rgb(17, 40, 101);
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+h1{
+    font-size: 48px;
 }
