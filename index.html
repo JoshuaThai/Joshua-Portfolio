@@ -4,11 +4,6 @@
     <title>Joshua's ePortfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        body{
-            background-image: url(Images/bg.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
         #Welcome{
             animation-name: moveText;
             animation-duration: 2s;
@@ -23,10 +18,13 @@
 </head>
 <body>
     <header>
-        <button onclick="document.location='index.html'">Home</button>
-        <button onclick="document.location='projects.html'">Projects</button>
-        <button onclick="document.location='aboutMe.html'">About Me</button>
-        <button onclick="document.location='awards.html'">Awards</button>
+        <h1><span>Joshua Thaisananikone's ePortfolio</span></h1>
+        <div class="nav-buttons">
+            <button onclick="document.location='index.html'">Home</button>
+            <button onclick="document.location='projects.html'">Projects</button>
+            <button onclick="document.location='aboutMe.html'">About Me</button>
+            <button onclick="document.location='awards.html'">Awards</button>
+        </div>
     </header>
     <main>
         <h1 id ="Welcome">Welcome to Joshua Thaisananikone's ePortfolio</h1>
