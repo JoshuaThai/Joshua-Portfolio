@@ -4,12 +4,26 @@
         <title>Joshua's Projects</title>
         <link rel="stylesheet" href="styles.css">
         <style>
-            /* body{
-            background-image: url(Images/hacking.gif);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-blend-mode:overlay;
-        } */
+            /* Mobile: single column */
+            @media (max-width: 499px) {
+            #project {
+                grid-template-columns: 1fr;
+            }
+            }
+            @media (min-width: 500px) {
+                #project{
+                display: grid;
+                grid-template-columns: 25% 75%;
+                /* grid-template-rows: 50%; */
+                margin-left: 0.5%;
+            }   
+            }
+            /* img{
+                max-width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            } */
         </style>
     </head>
 <body>
@@ -29,6 +43,16 @@
             I have worked on:
         </p>
         <hr>
+        <h2 style="text-decoration: underline;">Course Enrollment Manager</h2>
+        <div id="project">
+            <img src="Images/login_Page.png" height="350vh" width="400vw">
+            <p>I worked in a team of 4 to create a web application using Django, HTML, and CSS that enabled for professors, students, 
+                and administrators to manage course enrollments and other various tasks such enrollment requests and available course 
+                based on their respective view. We followed the SCRUM methodology to ensure collaboration and timely completion of work. 
+                I was tasked with completing Administrator view and assisted in the Student and Professor view. We worked on this project
+                 for 4 weeks and presented during the final exam week of the Spring 2025 semester. I help lead the live technical 
+                 demonstration of our project during presentations.</p>
+        </div>
     </main>
 </body>
 </html>
