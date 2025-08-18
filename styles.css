@@ -63,3 +63,12 @@ h2{
     color: white;
     text-decoration: underline;
 }
+
+a{
+    font-size: 36px;
+    color:white;
+}
+
+a:hover{
+    color: black;
+}
