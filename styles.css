@@ -33,7 +33,7 @@ header button:hover{
     color:black;
 }
 
-main{
+/* main{
     background-color: #290ED4;
     display: inline-block;
     margin: 0 auto;
@@ -41,6 +41,16 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
     text-align: center;
+} */
+ main {
+    background-color: #290ED4;
+    display: block;         /* stretch across width */
+    max-width: 1100px;      /* optional: constrain width */
+    margin: 1vh auto 0;     /* center the block */
+    padding: 1rem;          /* breathing room inside */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    text-align: left;       /* default alignment */
 }
 
 h1{
