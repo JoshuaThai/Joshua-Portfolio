@@ -13,9 +13,9 @@
             @media (min-width: 500px) {
                 .project{
                 display: grid;
-                grid-template-columns: 40% 60%;
+                /* grid-template-columns: 40% 60%;
                 grid-template-rows: 50%;
-                margin-left: 0.5%;
+                margin-left: 0.5%; */
             }   
             }
             /* img{
@@ -27,18 +27,16 @@
         </style>
     </head>
 <body>
-    <header>
-        <h1><span>Joshua Thaisananikone's ePortfolio</span></h1>
+    <h1>Joshua Thaisananikone</h1>
+        <h2 id ="tag-line">Software Engineer | Game Developer | Web Developer</h2>
         <div class="nav-buttons">
-            <button onclick="document.location='index.html'">Home</button>
-            <button onclick="document.location='projects.html'">Projects</button>
-            <button onclick="document.location='aboutMe.html'">About Me</button>
-            <button onclick="document.location='awards.html'">Awards</button>
+            <button class="nav-button" onclick="document.location='index.html'">Home</button>
+            <button class="nav-button" onclick="document.location='projects.html'">Projects</button>
+            <button class="nav-button" onclick="document.location='aboutMe.html'">About Me</button>
+            <button class="nav-button" onclick="document.location='awards.html'">Awards</button>
         </div>
-    </header>
-    <main>
         <h1 id= "ProjectTitle" style="text-decoration: underline;">My Projects:</h1>
-        <p>I have worked on countless projects, which has taught me a lot about software
+        <p style="font-size: 20px;">I have worked on countless projects, which has taught me a lot about software
             engineering and development in general. Below are some of the projects 
             I have worked on:
         </p>
@@ -46,11 +44,14 @@
         <h2>Course Enrollment Manager</h2>
         <div class="project">
             <div>
-                <img src="Images/login_Page.png" height="350vh" width="400vw">
-                <a href="https://github.com/JoshuaThai/course-enrollment-manager" target="_blank">EXPLORE PROJECT ON GITHUB</a>
+                <img src="Images/login_Page.png" height="350vh" width="400vw"><br>
+                <a href="https://github.com/JoshuaThai/course-enrollment-manager" target="_blank">
+                    <img src="Images/github-logo.svg" height="50vh" width="50vw"></a><br>
+                    <span><b>Try on GitHub</b></span>
             </div>
             <div>
-                <p>In my Intro to Software Engineering, I worked in a team of 4 to create a web application using Django, HTML, and CSS that 
+                <p style="font-size: 20px;">
+                In my Intro to Software Engineering, I worked in a team of 4 to create a web application using Django, HTML, and CSS that 
                 enabled for professors, students, 
                 and administrators to manage course enrollments and other various tasks such enrollment requests and available course 
                 based on their respective view. We followed the SCRUM methodology to ensure collaboration and timely completion of work. 
@@ -63,28 +64,35 @@
         <h2>Escape!</h2>
         <div class="project">
             <div>
-                <img src="Images/escape.png" height="350vh" width="400vw">
-                <a href="https://www.roblox.com/games/15124307480/Escape-DEMO-V-1-1" target="_blank">EXPLORE PROJECT ON ROBLOX</a>
+                <img src="Images/escape.png" height="350vh" width="425vw"><br>
+                <a href="https://www.roblox.com/games/15124307480/Escape-DEMO-V-1-1" target="_blank">
+                    <img src="Images/roblox-logo.png" height="60vh" width="60vw"></a><br>
+                    <span><b>Try on Roblox</b></span>
             </div>
-            <p>Since January 2025, I have been working on a project called "Escape!". "Escape!" is a game (inspired by Room Escape) where
+            <p style="font-size: 20px;">Since January 2025, I have been working on a project called "Escape!". "Escape!" is a game (inspired by Room Escape) where
                 every round, players have to escape from a map by 10 minutes. The maps are a combination of obstacle courses 
-                (often known as "obbies" by Roblox players) and puzzles. Currently, this project has two maps, I am looking forward
+                (often known as "obbies" by Roblox players) and puzzles. Currently, this project has three maps, I am looking forward
                 to adding more content. I am currently working on this project by myself. I am scripting in Lua, creating 3D models for in-game 
                 usage, and planning the whole game by myself. This project has allowed for me to practice my attention-to-detail skills, organization skills,
                 and problem solving skills. I am very excited as to where this project will lead me.
             </p>
         </div>
         <hr>
-        <h2>Course Enrollment Manager</h2>
+        <h2>Express Survey Application</h2>
         <div class="project">
-            <img src="Images/login_Page.png" height="350vh" width="400vw">
-            <p>I worked in a team of 4 to create a web application using Django, HTML, and CSS that enabled for professors, students, 
-                and administrators to manage course enrollments and other various tasks such enrollment requests and available course 
-                based on their respective view. We followed the SCRUM methodology to ensure collaboration and timely completion of work. 
-                I was tasked with completing Administrator view, assisted in developing the Student and Professor view and led the unit 
-                testing and acceptance testing for the project. We worked on this project for 4 weeks and presented during the final exam 
-                week of the Spring 2025 semester. I help lead the live technical demonstration of our project during presentations.</p>
+            <div>
+                <img src="Images/Express_Survey1.png" height="300vh" width="475vw"><br>
+                <a href="https://github.com/JoshuaThai/express-survey-app" target="_blank">
+                    <img src="Images/github-logo.svg" height="50vh" width="50vw"></a><br>
+                    <span><b>Try on GitHub</b></span>
+            </div>
+            <p style="font-size: 20px;">This is a personal project that I have been working on for the past few months. 
+                The goal of this project is to create a web application that allows users to fill out a survey and view the results. 
+                The application is built using Express.js, Node.js, and SQLite.
+                I am currently working on adding more features to the application, such as survey analytics. I am hoping to deploy
+                this application soon. This project has been a great way for me to practice my skills in web development and 
+                backend programming.
+            </p>
         </div>
-    </main>
 </body>
 </html>
