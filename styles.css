@@ -94,6 +94,7 @@ ul{
     justify-content: center;
     /* border: 3px solid black; */
     border-radius: 10px;
+    background-color: white;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
 }
 
@@ -125,3 +126,7 @@ ul{
     border-radius: 5px;
     margin: 5px;
 }
+
+/* #projects-menu-body{
+    background-color: white;
+} */
